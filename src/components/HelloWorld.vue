@@ -10,6 +10,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
+      str:'',
       msg: 'Welcome to Your Vue.js App',
       s:'9efb8013e24b34b1f2cb22461c28a6fe',
       a:'http://op.juhe.cn/189/bus/busline?key='+ this.s +'&city=上海&bus=990'
@@ -20,7 +21,7 @@ export default {
     })
   },
   created(){
-    
+    this.str = '222'
   }
 }
 </script>
