@@ -29,6 +29,7 @@ export default {
     this.str = 'this is a cat';
 
 
+    this.m = '我是小m';
   }
 }
 </script>
