@@ -19,6 +19,9 @@ export default {
     this.$ajax.get(this.a).then(function(res){
       console.log(res);
     })
+  },
+  created(){
+    
   }
 }
 </script>
