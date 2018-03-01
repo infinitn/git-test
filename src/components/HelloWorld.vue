@@ -28,6 +28,7 @@ export default {
 
 
     this.m = '我是小m';
+    this.s = '我是小s';
   }
 }
 </script>
