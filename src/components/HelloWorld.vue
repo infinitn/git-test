@@ -19,14 +19,12 @@ export default {
   },
   mounted(){
     this.$ajax.get(this.a).then(function(res){
-      console.log(res)
-      this.m = 'bbb';
-      this.m = 'ccc';
     })
   },
   created(){
     this.str = 'aaa';
     this.str = 'this is a cat';
+    this.str = 'this is a dog';
 
 
     this.m = '我是小m';
