@@ -21,6 +21,7 @@ export default {
     this.$ajax.get(this.a).then(function(res){
       console.log(res)
       this.m = 'bbb';
+      this.m = 'ccc';
     })
   },
   created(){
