@@ -26,6 +26,8 @@ export default {
   },
   created(){
     this.str = 'aaa';
+    this.str = 'this is a cat';
+
 
   }
 }
