@@ -20,6 +20,7 @@ export default {
   mounted(){
     this.$ajax.get(this.a).then(function(res){
       console.log(res)
+      this.m = 'bbb';
     })
   },
   created(){
