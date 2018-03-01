@@ -21,7 +21,6 @@ export default {
     })
   },
   created(){
-    this.str = '222'
   }
 }
 </script>
